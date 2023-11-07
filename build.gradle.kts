@@ -4,10 +4,6 @@ plugins {
     id("io.spring.dependency-management") version "1.1.3"
 }
 
-tasks.create("num") {
-    println(project.findProperty("springbootVersion"))
-}
-
 repositories {
     mavenLocal()
     maven("https://maven.aliyun.com/repository/public")

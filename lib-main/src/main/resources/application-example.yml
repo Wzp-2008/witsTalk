@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #驱动类名
+    username: root # 数据库用户名
+    password: 123456 # 数据库密码
+    url: jdbc:mysql://127.0.0.1:3306/witstalk # 数据库url
+  data:
+    redis:
+      host: 127.0.0.1 # redis地址
+      port: 3679 # redis端口
+      database: 0 # 使用的redis数据库（不填写默认使用0号库）
+      password: 123456 # redis密码
